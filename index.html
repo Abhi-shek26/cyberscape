@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberscape</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="ui-panel">
+            <div>Player Health: <span id="player-health">--</span></div>
+            <div>System Health: <span id="system-health">--</span></div>
+            <div>Keys: <span id="keys-collected">--</span></div>
+            <div>Shards Delivered: <span id="shards-delivered">--</span></div>
+            <div>High Score: <span id="high-score">--</span></div>
+            <div>Shard Cost: <span id="shard-cost">--</span> Keys</div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="controls" class ="sticky-controls">
+            <button id="pauseButton">Pause</button>
+            <button id="resumeButton" style="display:none;">Resume</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/projectile.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/tower.js"></script>
+    <script src="js/item.js"></script>
+    <script src="js/bot.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
